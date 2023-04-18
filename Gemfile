@@ -1,5 +1,6 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 ruby '3.0.0'
-gem 'rubocop', '~> 0.57.2'
+gem 'rubocop', require: false
 gem 'rspec'
-gem 'guard-rspec', require: false
+gem 'guard-rspec'
+gem 'pry'

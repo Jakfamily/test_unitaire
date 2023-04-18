@@ -72,8 +72,9 @@ PLATFORMS
 
 DEPENDENCIES
   guard-rspec
+  pry
   rspec
-  rubocop (~> 0.57.2)
+  rubocop
 
 RUBY VERSION
    ruby 3.0.0p0

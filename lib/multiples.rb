@@ -1,3 +1,5 @@
+require 'pry'
+
 def is_multiple_of_3_or_5?(number)
   # verifie si le reste de la div et a zero 
     (number % 3 == 0) || (number % 5 == 0)
